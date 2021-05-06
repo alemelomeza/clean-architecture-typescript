@@ -1,0 +1,22 @@
+Entity
+
+ParkingLot
+
+code
+capacity
+openHour
+closeHour
+(occupiedSpaces)
+
+
+ParkedCar
+
+code
+plate
+date
+
+
+Use Case
+
+EnterParkingLot
+LeaveParkingLot

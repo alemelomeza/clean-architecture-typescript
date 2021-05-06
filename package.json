@@ -1,0 +1,25 @@
+{
+  "name": "clean-architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "tsc && node ./dist/main.js",
+    "test": "tsc && jest ./dist",
+    "express": "tsc && node ./dist/src/infra/http/express.js",
+    "hapi": "tsc && node ./dist/src/infra/http/hapi.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "@types/jest": "^26.0.22",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "pg-promise": "^10.10.1"
+  }
+}
